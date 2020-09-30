@@ -4,6 +4,7 @@
         <title>
             XT's HomePage
 		</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="./css/index.css">
 		<link rel="shortcut icon" href="./image/head_icon.jpg">	<!-- 给浏览器工具栏上加图片 -->
 		<base target="_blank">	<!-- 设置整个 html 超链接打开方式都是 "_blank" -->
@@ -11,6 +12,14 @@
 			
 		</style>
     <body>
+		<div id="sidebar">
+			<nav>
+				<ul>
+					<li><a href="https://sgy.ustc.edu.cn" class="link_style">SCGY</a></li>
+					<li><a href="http://cs.ustc.edu.cn/" class="link_style">SCST</a></li>
+				</ul>
+			</nav>
+		</div>
 		<h1 class="shadow"><font color="white" size="10px">肖桐 PB18000037</font></h1>
 <!--		<div id="introduction" style="width: 420px; border-style: inset; margin-top: 0;">
 			<div id="header">
@@ -48,6 +57,7 @@
 					<h1 class="h1_style" style="margin-bottom: 0; padding-top: 0; size: 0.75em;">个人简介</h1>
 				</tr>
 				<tr>
+					<td rowspan="4" width="100px"><img class="head_icon" src="./image/girl_1.jpg" slt="Head image" align="left"></td>
 					<td>Email:</td>
 					<td><a class="link_style" href="mailto:xt20020109@mail.ustc.edu.cn">xt20020109@mail.ustc.edu.cn</a></td>
 				</tr>
@@ -66,6 +76,7 @@
 			</table>
 		</div>
 		<hr>
+		<a href="#sidebar">Toggle</a>
 		<h1>Links</h1>
 		<ul>
 			<li><a class="link_style" href="https://github.com/Xiao2002">GitHub</a></li>
@@ -75,8 +86,28 @@
 		<h1>Reference</h1>
 		<p>本网页编写学习自<a class="link_style" href="https://www.runoob.com">菜鸟教程</a></p>
 		<ul>
-			<li><a class="link_style" href="./HTML学习笔记.pdf">HTML学习笔记</a></li>
-			<li><a class="link_style" href="./CSS学习笔记.pdf">CSS学习笔记</a></li>
+			<li><a class="link_style" href="./HTML.pdf">HTML学习笔记</a></li>
+			<li><a class="link_style" href="./CSS.pdf">CSS学习笔记</a></li>
 		</ul>
+		<br>
+		<hr>
+		<div class="container">
+			第一层div
+		<div class="box1">
+			box1box1box1box1box1box1
+		</div>
+		<div class="box2">
+			box2box2box2box2box2box2
+		</div>
+		<div class="box3">
+			box3box3box3box3box3box3
+		</div>
+		<div class="box4">
+			box4box4box4box4box4box4
+		</div>
+		<div class="box5">
+			box5box5box5box5box5box5
+		</div>
+		</div>
     </body>
 </html>
