@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html, body
+{
+	height: 100%;	/* 确保图片自适应整屏显示, 使得 html 和 body 在高度上充满屏幕 */
+	color: #000000	/* html 和 body 的子元素将继承 color 属性, 所有颜色变为黑色 */
+}
+body
+{
+	/*background-image: url("../image/wallpaper_1.jpg");
+	/* 背景图片 */
+	/*background-size: cover;			/* 覆盖整个浏览器 */
+	/*background-position: center center;		/* 第一个 center 表示水平居中, 第二个 center 表示垂直居中 */
+	background-color: #BDE2FD;	/* 背景颜色 */
+	/*background-repeat: repeat-x;*/
+}
+p.uppercase {text-transform: uppercase;}
+p.capitalize {text-transform: capitalize;}
+h1.shadow {text-shadow: 2px 2px 2px rgb(0, 0, 255);}
+
+a.link_style:link {text-decoration: none; color: blue;}
+a.link_style:visited {text-decoration: none; color: blue;}
+a.link_style:hover {text-decoration: none; color: red;}
+a.link_style:active {text-decoration: none;}
+
+p.border_1
+{
+	background-color: cyan;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: rgb(0, 110, 255);
+	/* text-indent: 50px; */
+}
+h1.h1_style
+{
+	background-color: none;
+	border-style: none;
+	padding: 10px;
+	margin: 0px;
+}
+#introduction	/* 为 id 为 introduction 的 div 设置样式 */
+{
+	width: 100%;	/* 容器宽度为 100%, 即横向填满整个屏幕 */
+	text-align: center;
+}
