@@ -19,6 +19,8 @@ h1 {color:blue; font-size:12px;}
 
 [CSS选择器参考手册](https://www.runoob.com/cssref/css-selectors.html)	[CSS属性参考](https://www.runoob.com/cssref/css-reference.html)	[CSS单位](https://www.runoob.com/cssref/css-units.html)
 
+`%`单位：百分比是相对于父元素的尺寸。
+
 `CSS`声明总是以分号(;)结束，声明总是以大括号({ })括起来。
 
 ## 2. `CSS`注释
