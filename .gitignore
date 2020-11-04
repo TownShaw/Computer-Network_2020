@@ -1,0 +1,6 @@
+*.aux
+*.thm
+*.log
+*.gz
+*.exe
+*.out
